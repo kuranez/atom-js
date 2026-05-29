@@ -9,6 +9,19 @@ Lernprojekt, um Architekturunterschiede zu Java zu lernen.
 
 - Energie für wasserstoffähnliche Systeme
 - Elektronenverteilung auf Schalen
+- Grafische Darstellung auf HTML-Canvas
+
+## **How 2 Use**
+
+Benötigt werden Node.js und das HTTP-Server-Modul.
+
+```bash
+npm install -g http-server
+```
+
+```bash
+npx http-server
+```
 
 ## Siehe auch
 

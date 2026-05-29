@@ -3,7 +3,7 @@
 - [x] Atom-Factory
 - [x] Schalenmodell
 - [x] Energie für wasserstoffähnliche Systeme
-- [ ] Renderer
+- [x] Renderer für HTML-Canvas
 
 ## Phase 1:
 
@@ -34,6 +34,8 @@ main.js
 ## Phase 3:
 
 - Implementierung von Schalen
+- Ausgabe über Konsole
+
 
 ```
 main.js 
@@ -43,6 +45,40 @@ main.js
      ├── shells.js 
      └── energy.js 
 ```
+
+## Phase 4:
+
+- Rendern von Schalen auf HTML-Canvas
+- Programm wird nun über `npx http-server` ausgeführt.
+
+### Darstellung auf Canvas
+
+```
+Browser lädt HTML
+↓
+HTML lädt JS
+↓
+JS läuft im Browserkontext
+``` 
+
+### Modellhierarchie
+
+```
+main.js 
+│ 
+├── physics/ 
+│     ├── atom.js 
+│     ├── shells.js 
+│     └── energy.js 
+│ 
+└── render/ 
+      └── renderer.js 
+```
+
+## Phase 5:
+
+- Implementierung von Programm-states in states.js
+- z.B. für Auswahl von Atomen
 
 ## Modellhierarchie
 
