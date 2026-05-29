@@ -1,5 +1,10 @@
 # Schalenmodell - Implementierung in JavaScript
 
+- [x] Atom-Factory
+- [x] Schalenmodell
+- [x] Energie für wasserstoffähnliche Systeme
+- [ ] Renderer
+
 ## Phase 1:
 
 - Atom als Klasse (analog zu [Java-Version](https://github.com/kuranez/atom-shells-java))
@@ -29,6 +34,15 @@ main.js
 ## Phase 3:
 
 - Implementierung von Schalen
+
+```
+main.js 
+│ 
+└── physics/ 
+     ├── atom.js 
+     ├── shells.js 
+     └── energy.js 
+```
 
 ## Modellhierarchie
 

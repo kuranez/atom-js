@@ -1,5 +1,5 @@
  
-# atom-js
+# atom-shells-js
 
 Einfaches Atommodell in JavaScript.
 
@@ -7,7 +7,8 @@ Lernprojekt, um Architekturunterschiede zu Java zu lernen.
 
 ## **Features**
 
-- Wasserstoffmodell
+- Energie für wasserstoffähnliche Systeme
+- Elektronenverteilung auf Schalen
 
 ## Siehe auch
 

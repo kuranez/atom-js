@@ -1,3 +1,5 @@
+// physics/atom.js
+// Atom als Klasse - Objektorientierter Ansatz
 export class Atom {
 
     constructor(name, protonNumber, electronCount) {

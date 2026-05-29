@@ -1,3 +1,8 @@
+// physics/atom.js
+// Atom als Factory-Funktion - Funktionaler Ansatz
+
+import { createShell } from "./shells.js";
+
 export function createAtom(
     name,
     protonNumber,
@@ -6,6 +11,11 @@ export function createAtom(
     return {
         name,
         protonNumber,
-        electronCount
+        electronCount,
+        shells: [
+            createShell(1),
+            createShell(2),
+            createShell(3),
+        ]
     };
 }
